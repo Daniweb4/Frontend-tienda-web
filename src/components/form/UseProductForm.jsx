@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import crud from "../../hook/crud";
 import "../styles/form.css";
 
-const url = "http://localhost:8080/api/v1/";
+const url = "https://backend-tienda-web.onrender.com";
 const UseProductForm = ({ addProduct, isOpen, setIsOpen, editPoduct, updateApi }) => {
   const { handleSubmit, register, reset } = useForm();
   const [apiData, getSelect] = crud(url);

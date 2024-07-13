@@ -7,7 +7,7 @@ import Infor from './pag/Infor'
 import UseProductForm from '../components/form/UseProductForm'
 
 
-const url="http://localhost:8080/api/v1"
+const url="https://backend-tienda-web.onrender.com"
 
 const Producto = () => {
   const [editPoduct, setEditProduct] = useState()
