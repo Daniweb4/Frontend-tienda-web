@@ -1,0 +1,72 @@
+.mision{
+    position: relative;
+    top: 1px;
+    left: 10px;
+    width: 55%;
+    background-color: #f2f2f2; /* Color de fondo */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra */
+}.mision h2{
+    font-size: 28px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+}.mision p{
+    position: relative;
+    right: 5px;
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Interlineado */
+    color: #666; /* Color del texto */
+}.main{
+    position: relative;
+    top: 25px;
+    display: flex;
+   
+    justify-content: space-between;
+    
+}.image{
+    position: relative;
+    left: -25px;
+    display: flex;
+}
+
+/* Estilo básico para la imagen */
+img {
+    width: 500px;
+    max-width: 100%; /* Ajusta la imagen al ancho máximo del contenedor */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+    display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Efecto de hover */
+img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    transition: transform 0.3s ease; /* Efecto de transición suave */
+}
+.margen{
+    position: relative;
+    top: 20px;
+    left: -15px;
+    background-color: #e0e0e0;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 7px;
+    width: 98%;
+}.vision {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}.vision h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}.vision p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}

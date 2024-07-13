@@ -1,0 +1,42 @@
+.contentEmployees{
+
+   position:relative;
+   top: 20px;
+   margin:auto;
+   width: 100%;
+   
+ }.Table{
+  margin: 0 auto;
+  width: 50%;
+
+ 
+ }@media screen and (max-width: 480px){
+  .Table{
+    width: 100%;
+    font-size: .9em;
+  }
+   .Table tr{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: grey;
+  }.Table thead{
+    display: none;
+  }
+  .Table td[data-titulo]{
+    display: flex;
+  }.Table td[data-titulo]::before{
+    content: attr(data-titulo);
+    width: 80px;
+    color: silver;
+    font-weight: bold;
+    
+  }
+ }
+ .btn1{
+  position: relative;
+  display: inline;
+  gap: 5px;  
+ }
+ 
