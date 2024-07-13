@@ -10,7 +10,7 @@
   width: 50%;
 
  
- }@media screen and (max-width: 480px){
+ }@media screen and (max-width: 760px){
   .Table{
     width: 100%;
     font-size: .9em;
