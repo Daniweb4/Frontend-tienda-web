@@ -14,7 +14,7 @@ const crud = (urlBase) => {
    }*/
    /** Este metodo es para obtener datos*/
    const getApi=(path)=>{
-    axios.get(`${urlBase}${path}`)
+    axios.get(`${urlBase}${path}/`)
     .then(res=>setApiData(res.data))
     .catch(err=>console.log(err))
    }/**EEste metodo es para crear e insertar datos */

@@ -5,7 +5,7 @@ import './style/empleado.css'
 import UseEmployees from "../components/form/UseEmployees";
 import InforEmpleado from "./pag/InforEmpleado"
 import Table from "react-bootstrap/Table";
-const url = "https://backend-tienda-web.onrender.com";
+const url = "https://crud-tienda-web.onrender.com/api/v1";
 
 const Empleado = () => {
   const [empleado, getEmpleado, addEmpleado,deleteEmpledo, updateEmpleado] = crud(url);

@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react'
 import Nav from '../components/Nav'
-
 import './style/product.css'
 import crud from '../hook/crud'
 import Infor from './pag/Infor'
 import UseProductForm from '../components/form/UseProductForm'
 
 
-const url="https://backend-tienda-web.onrender.com"
+const url="https://crud-tienda-web.onrender.com/api/v1"
 
 const Producto = () => {
   const [editPoduct, setEditProduct] = useState()

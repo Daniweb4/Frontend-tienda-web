@@ -8,7 +8,7 @@ import Table from "react-bootstrap/Table";
 //import { Stack } from "react-bootstrap";
 import InforProveedor from "./pag/InforProveedor";
 
-const url = "http://localhost:8080/api/v1";
+const url = "https://crud-tienda-web.onrender.com/api/v1";
 const Proveedor = () => {
   const [editPov, setEditProv] = useState()
   const [proveedor, getProveedor, addProveedor, deleteApi,  updateApi ] = crud(url);
