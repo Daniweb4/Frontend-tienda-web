@@ -16,9 +16,9 @@ const Nav = () => {
         </div>
         <div className={`link-a ${cliked ? 'active': ''}`}>
         <Link to='/'>Home</Link>
-         <Link to='/empleado'>Employees</Link>
-        <Link to='/producto'>Products</Link>
-        <Link to='/proveedor'>Suppliers</Link>
+         <a><Link to='/empleado'>Employees</Link></a>
+         <a><Link to='/producto'>Products</Link></a>
+        <a><Link to='/proveedor'>Suppliers</Link></a>
         </div>
         <div className="btn7">
       <Burger cliked={cliked} handleClick={handleClick}/>
