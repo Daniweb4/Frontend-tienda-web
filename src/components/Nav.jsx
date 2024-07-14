@@ -15,7 +15,7 @@ const Nav = () => {
         <h1>Tienda Web</h1>
         </div>
         <div className={`link-a ${cliked ? 'active': ''}`}>
-        <Link to='/'>Home</Link>
+        <a><Link to='/'>Home</Link></a>
          <a><Link to='/empleado'>Employees</Link></a>
          <a><Link to='/producto'>Products</Link></a>
         <a><Link to='/proveedor'>Suppliers</Link></a>
