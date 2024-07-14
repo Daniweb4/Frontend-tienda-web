@@ -1,6 +1,6 @@
 .mision{
     position: relative;
-    top: 1px;
+    top: 10px;
     left: 10px;
     width: 55%;
     background-color: #f2f2f2; /* Color de fondo */
@@ -21,7 +21,7 @@
     position: relative;
     top: 25px;
     display: flex;
-   
+    
     justify-content: space-between;
     
 }.image{
@@ -45,18 +45,32 @@ img {
 img:hover {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
     transition: transform 0.3s ease; /* Efecto de transición suave */
+}@media (max-width:760px){
+    .image img{
+        display: none;
+    }.mision {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        background-color: aqua;
+        
+    }
 }
 .margen{
     position: relative;
-    top: 20px;
+    top: 30px;
     left: -15px;
     background-color: #e0e0e0;
     padding: 50px;
     margin: 20px;
     border-radius: 7px;
     width: 98%;
+
 }.vision {
+    position: relative;
     background-color: #f7f7f7;
+    top: 30px;
     padding: 40px 0;
     text-align: center;
 }.vision h2 {

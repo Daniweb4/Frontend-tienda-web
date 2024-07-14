@@ -1,6 +1,9 @@
 import {} from "react";
 import Nav from "../components/Nav";
 import "./style/home.css";
+
+import Carousel from "./Carousel";
+
 const Home = () => {
   return (
     <section>
@@ -43,6 +46,8 @@ const Home = () => {
           </p>
         
       </main>
+      <section className="margen"></section>
+     <Carousel/>
     </section>
   );
 };
