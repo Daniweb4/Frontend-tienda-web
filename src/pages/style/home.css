@@ -54,7 +54,7 @@ img:hover {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 98%;
+        width: 100%;
         background-color: aqua;
         
     }
