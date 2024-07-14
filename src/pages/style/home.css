@@ -49,10 +49,12 @@ img:hover {
     .image img{
         display: none;
     }.mision {
+        position: relative;
+        left: 3px;
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 100%;
+        width: 98%;
         background-color: aqua;
         
     }

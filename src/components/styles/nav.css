@@ -59,6 +59,7 @@
       color: white;
       display: inline-block;
     }
+    
   }
 }
 .link-a.active {
@@ -117,4 +118,12 @@
 }
 .crp:hover {
   transform: scale(1.1);
+}@media (max-width:768px){
+  .title{
+      display: flex;
+      position: relative;
+      left: -80px;
+  }h1{
+    font-size: 20px;
+  }
 }
