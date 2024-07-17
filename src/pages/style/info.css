@@ -116,10 +116,12 @@ esta en una caja del div*/
 }
 .delete{
   background-color: rgba(255, 72, 0, 0.916);
+  color: black;
   margin-left: 10px;
   
 
 
 }.edit{
-  background-color:blue;
+  background-color:yellow;
+  color: black;
 }

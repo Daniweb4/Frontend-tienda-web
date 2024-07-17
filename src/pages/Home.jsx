@@ -4,6 +4,7 @@ import "./style/home.css";
 
 import Carousel from "./Carousel";
 
+
 const Home = () => {
   return (
     <section>
@@ -48,6 +49,8 @@ const Home = () => {
       </main>
       <section className="margen"></section>
      <Carousel/>
+     <section className="margen"></section>
+
     </section>
   );
 };

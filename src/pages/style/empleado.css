@@ -12,7 +12,7 @@
  
  }@media screen and (max-width: 760px){
   .Table{
-    width: 100%;
+   
     font-size: .9em;
   }
    .Table tr{
@@ -20,7 +20,7 @@
     flex-direction: column;
     padding: 1em;
     margin-bottom: 1em;
-    background-color: grey;
+    background-color: rgb(122, 130, 123);
   }.Table thead{
     display: none;
   }
@@ -28,8 +28,8 @@
     display: flex;
   }.Table td[data-titulo]::before{
     content: attr(data-titulo);
-    width: 80px;
-    color: silver;
+    width: 78px;
+    color: rgb(192, 177, 177);
     font-weight: bold;
     
   }
@@ -37,6 +37,6 @@
  .btn1{
   position: relative;
   display: inline;
-  gap: 5px;  
+  top: -2px;
+  gap: 8px;  
  }
- 
