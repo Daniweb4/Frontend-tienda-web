@@ -118,10 +118,10 @@ esta en una caja del div*/
   background-color: rgba(255, 72, 0, 0.916);
   color: black;
   margin-left: 10px;
-  
-
 
 }.edit{
   background-color:yellow;
   color: black;
+}.enable{
+  background-color: aqua;
 }
