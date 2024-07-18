@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {} from 'react'
 import '../components/styles/nav.css'
 const Burger = (props) => {

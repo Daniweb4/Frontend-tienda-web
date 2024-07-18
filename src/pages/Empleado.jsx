@@ -3,8 +3,9 @@ import Nav from "../components/Nav";
 import crud from "../hook/crud";
 import './style/empleado.css'
 import UseEmployees from "../components/form/UseEmployees";
-import InforEmpleado from "./pag/InforEmpleado"
-import Table from "react-bootstrap/Table";
+//import InforEmpleado from "./pag/InforEmpleado"
+//import Table from "react-bootstrap/Table";
+import PaginateEmpleado from "../components/PaginateEmpleado";
 const url = "https://crud-tienda-web.onrender.com/api/v1";
 
 const Empleado = () => {
@@ -35,41 +36,24 @@ const Empleado = () => {
         />
       
     
-      <div className="contentEmployees">
-        <Table className="Table" striped bordered hover size="sm">
-          <thead>
-            <tr>
-            
-              <th>Name</th>
-              <th>Last</th>
-              <th>Correo</th>
-              <th>Direction</th>
-              <th>Actions</th>
-              
-            </tr>
-          </thead>
-          <tbody>
-            {empleado.map((item) => (
-              <tr key={item.id}>
-              
-                <td data-titulo="Nombre">{item.name}</td>
-                <td data-titulo="Last">{item.last}</td>
-                <td data-titulo="Email">{item.correo}</td>
-                <td data-titulo="Direction">{item.direccion}</td>
-                <td> 
-                <InforEmpleado
-                item={item}
-                deleteEmpledo={deleteEmpledo}
+     
+          <PaginateEmpleado 
+                empleado={empleado}
                 setEditEmpleado={setEditEmpleado}
+                deleteEmpledo={deleteEmpledo}
                 setIsOpen={setIsOpen}
-                /></td>
+                />
+          
+             
+                
+              
                 
                
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      </div>
+              
+       
+        
+   
+     
     </div>
   );
 };
