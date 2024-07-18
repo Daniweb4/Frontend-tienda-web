@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import "./style/home.css";
 
 import Carousel from "./Carousel";
+import Char from "../components/Char";
 
 
 const Home = () => {
@@ -33,6 +34,11 @@ const Home = () => {
         </div>
       </main>
       <section className="margen"></section>
+      <main className="chart1">
+       <h1>Estadísticas de Empleados</h1>
+            <Char />
+      </main>
+      <section className="margen"></section>
       <main className="vision">
           <h2>Visión</h2>
           <p>
@@ -50,7 +56,7 @@ const Home = () => {
       <section className="margen"></section>
      <Carousel/>
      <section className="margen"></section>
-
+    
     </section>
   );
 };

@@ -85,4 +85,12 @@ img:hover {
     color: #666;
     max-width: 800px;
     margin: 0 auto;
+}.chart1{
+    position: relative;
+    top: 40px;
+}
+h1{
+    text-align: center;
+    color: #333;
+    font-weight: bold;
 }
